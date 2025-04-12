@@ -47,7 +47,7 @@ The system uses the TMDB 5000 Movies dataset, which contains metadata about movi
 
 ## API Integration
 
-The project uses the TMDB API to fetch movie posters. Ensure you have a valid API key and replace it in the `fetch_poster` function in `app.py`.
+The project uses the TMDB API to fetch movie posters. Ensure you have a valid API key and replace it in the `fetch_poster` function in `.venv` file.
 
 ## Example
 For recommendation based on selected movie:
