@@ -17,7 +17,7 @@ The system uses the TMDB 5000 Movies dataset, which contains metadata about movi
 
 1. Clone the repository:
    ```bash
-   git 
+   git clone https://github.com/iMved2075/movie-recommender-system
    cd movie-recommendation-system
    ```
 
@@ -47,7 +47,7 @@ The system uses the TMDB 5000 Movies dataset, which contains metadata about movi
 
 ## API Integration
 
-The project uses the TMDB API to fetch movie posters. Ensure you have a valid API key and replace it in the `fetch_poster` function in `.venv` file.
+The project uses the TMDB API to fetch movie posters. Ensure you have a valid API key and replace it in the `.venv` file.
 
 ## Example
 For recommendation based on selected movie:
@@ -70,9 +70,11 @@ For recommendation based on selected genres:
 - Requests
 - Pickle
 - Python-dotenv
-- 
 
 ## Acknowledgments
 
 - [TMDB Dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
 - [Streamlit](https://streamlit.io/)
+
+## Deployed at 
+- [Movie Recommendation System](https://movie-recommender-system-8hxriyuezfmufz3wys6pyq.streamlit.app/)
