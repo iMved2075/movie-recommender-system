@@ -280,7 +280,7 @@ if selected_title and selected_title[0]:
                     <div class="trailer-title">🎬 Watch Trailer</div>
                 </div>
             """, unsafe_allow_html=True)
-            st.video(trailer_url)
+            st.video(trailer_url, autoplay=True, muted=True, loop=True)
         else:
             st.markdown("<div style='text-align: center; color: #bbb; margin-top: 30px;'>No trailer available.</div>",
                         unsafe_allow_html=True)
